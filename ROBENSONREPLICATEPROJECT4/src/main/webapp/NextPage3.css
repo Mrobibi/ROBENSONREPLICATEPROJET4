@@ -1,0 +1,98 @@
+@charset "ISO-8859-1";
+.wrapper3{
+	background:url(insta2.jpg) no-repeat;
+	background-size:cover;
+	height:100vh;
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+
+        /* Style du menu de navigation */
+        nav {
+            background-color: #000000;
+            text-align: center;
+            padding: 10px;
+            display: flex;
+        }
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Créer 4 colonnes de largeur égale */
+    gap: 20px; /* Espacement entre les colonnes */
+    width: 30%; /* Largeur du container */
+    max-width: 100px; /* Largeur maximale */
+    padding: 20px;
+}
+
+/* Style pour chaque colonne */
+.column {
+    display: flex;
+    flex-direction: column; /* Aligner les éléments de la colonne verticalement */
+    justify-content: center; /* Centrer le contenu de chaque colonne */
+    align-items: center; /* Centrer horizontalement */
+    background-color: #ffffff; /* Couleur de fond de la colonne */
+    padding: 10px;
+    border: 1px solid #ccc; /* Bordure autour de chaque colonne */
+}
+
+/* Style pour les images */
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espacement entre l'image et le texte */
+}
+
+
+element.style {
+    display: block;
+    object-position: 50% 50%;
+}
+.user-items-list-simple .list-item-media-inner:not([data-aspect-ratio="original"]) .list-image {
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.user-items-list-simple .list-image {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+img {
+    border: 0;
+}
+img[Attributes Style] {
+    width: 2500px;
+    aspect-ratio: auto 2500 / 2500;
+    height: 2500px;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+@supports (--test-custom-property: true) {
+    .user-items-list-item-container[data-section-id="66ce2d2fd6825d72ad2a7d9d"] {
+        --title-font-size-value: 1.2;
+        --body-font-size-value: 0.9;
+        --button-font-size-value: 0.8;
+    }
+}
+.user-items-list-simple {
+    list-style: none;
+    margin: 0px auto;
+    display: -ms-grid;
+    display: grid
+;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+}
+        

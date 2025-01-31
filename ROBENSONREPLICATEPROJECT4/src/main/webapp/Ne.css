@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+.container {
+    display: flex; /* Utilisation de Flexbox pour disposer les colonnes sur une ligne */
+    justify-content: space-between; /* Optionnel : espace égal entre les colonnes */
+    align-items: flex-start; /* Aligner les éléments en haut (optionnel) */
+    gap: 0; /* Aucune espace entre les éléments */
+    flex-wrap: nowrap; /* S'assure que les colonnes ne se replient pas */
+}
+
+.colonne {
+    flex: 1; /* Chaque colonne prend une part égale de l'espace disponible */
+    padding: 10px; /* Optionnel : ajout d'un peu de padding à chaque colonne pour ne pas que l'image touche les bords */
+}
+
+.image-ronde {
+    border-radius: 50%; /* Pour que l'image soit ronde */
+    width: 200px; /* Taille des images */
+    height: 200px; /* Taille des images */
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+}

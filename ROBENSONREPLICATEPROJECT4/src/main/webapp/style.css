@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+/* Réinitialiser les marges et le padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;;
+    padding: 20px;
+}
+
+/* Conteneur pour les colonnes */
+.container {
+    display: flex;
+    justify-content: space-between; /* Pour espacer les colonnes */
+    gap: 10px; /* Espacement entre les colonnes */
+     margin: 0 15px;
+}
+
+/* Style des colonnes */
+.colonne {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 30%; /* Chaque colonne occupe 45% de la largeur du conteneur */
+    height: 800px; /* Hauteur fixe de chaque colonne */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+/* Style pour la colonne gauche */
+.gauche {
+    background-color: #e0f7fa;
+}
+
+/* Style pour la colonne droite */
+.droite {
+    background-color: #ffeb3b;
+}
+
+/* Pour rendre l'image ronde */
+.image-ronde {
+    width: 200px;        /* Taille de l'image (ajuste selon tes besoins) */
+    height: 200px;       /* Assurer que la hauteur et la largeur sont égales pour que l'image soit ronde */
+    border-radius: 50%;  /* Cette propriété rend l'image ronde */
+    object-fit: cover;   /* Permet de garder le contenu de l'image centré et sans déformation */
+    margin-bottom: 30px;
+}
+
+/* Style pour le titre h2 */
+.colonne h2 {
+    font-size: 3em; /* Taille du titre */
+    margin-bottom: 30px; /* Espacement entre le titre et le paragraphe */
+    color: #333; /* Couleur du texte */
+}
+
+/* Style pour le paragraphe */
+.colonne p {
+    font-size: 2em; /* Taille du texte */
+    line-height: 1.5; /* Hauteur de ligne pour lisibilité */
+    color: #666; /* Couleur du texte */
+    margin-top: 0; /* Supprimer la marge supérieure */
+    margin-bottom: 0; /* Supprimer la marge inférieure */
+}
+body {
+    background-color: #808080;  /* Code couleur hexadécimal pour gris */
+    font-family: Arial, sans-serif;
+    color: #fff; /* Texte en blanc pour contraster avec le fond gris */
+    margin: 0;
+    padding: 0;
+    height: 50vh; /* Pour que le fond couvre toute la hauteur de la fenêtre */
+}
+
+/* Style pour le contenu */
+.contenu {
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+
+

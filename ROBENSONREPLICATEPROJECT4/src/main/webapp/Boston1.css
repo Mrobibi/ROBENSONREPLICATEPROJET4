@@ -1,0 +1,43 @@
+@charset "ISO-8859-1";
+.wrapper1{
+	background:url(Capture1.jpg) no-repeat;
+	background-size:cover;
+	height:80vh;
+	
+}
+ 
+ 
+}
+          /* Liste de navigation sans puces */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style des éléments de la liste (menu items) */
+        ul li {
+            display: inline-block;  /* Affichage horizontal */
+            margin: 0 15px;  /* Espacement entre les éléments */
+        }
+        
+         /* Style des liens */
+        ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;  /* Permet de remplir tout l'élément de la liste */
+        }
+
+        /* Effet de survol */
+        ul li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Pour un meilleur visuel, ajouter un espace autour du menu */
+        nav {
+            margin-bottom: 30px;
+        }
+        
+       
+    </style>

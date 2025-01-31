@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+element.style {
+    position: relative !important;
+    top: 41px;
+    min-height: calc(100% - 41px);
+}
+#plugin {
+    position: fixed;
+    min-width: 100%;
+    user-select: none;
+}
+embed[Attributes Style] {
+    width: 1032px;
+    height: 8222px;
+}
+user agent stylesheet
+embed:focus-visible {
+    outline: none;
+}
+user agent stylesheet
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+user agent stylesheet
+embed {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+}
+#document-container {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    line-height: 0;
+}
+body {
+    background-color: #E6E6E6;
+    color: #101010;
+    line-height: 154%;
+    margin: 0;
+    overscroll-behavior: none;
+}
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 81.25%;
+}
+injected stylesheet
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 75%;
+}
+html {
+    touch-action: pan-x pan-y;
+    color-scheme: light dark;
+}
+html {
+    --md-background-color: rgb(248, 249, 250);
+    --md-loading-message-color: #6e6e6e;
+    --md-toolbar-height: 56px;
+    --md-toolbar-border: 1px solid #e0e0e0;
+}
+
+/* Text description styling */
+.text-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+/* Get Started button styling */
+.get-started {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+    background-color: #0056b3;
+}
+
+
+    
+
+
+ 
+

@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+  body, html {
+  margin: 1;
+  padding: 1;
+  height: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 25%);
+  grid-template-rows: repeat(5, 25%);
+  height: 80vh;
+}
+
+.partie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: center; /* Centrer l'image horizontalement */
+  align-items: center; /* Centrer l'image verticalement */
+  height: 150px; /* Hauteur de l'en-tête */
+  
+
+
+.image-ronde {
+  width: 100px; /* Largeur de l'image */
+  height: 100px; /* Hauteur de l'image */
+  border-radius: 50%; /* Bordure ronde pour créer un cercle */
+  object-fit: cover; /* S'assure que l'image est bien recadrée dans le cercle */
+  border: 3px solid #333; /* Bordure autour de l'image */
+}
+
+
+.content {
+  padding: 20px;
+}
+ 
